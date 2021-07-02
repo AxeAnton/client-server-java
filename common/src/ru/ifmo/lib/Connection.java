@@ -13,8 +13,6 @@ public class Connection extends Thread {
     private Chat chat;
     private String userName;
 
-
-
     public Connection(Socket socket, Chat chat) throws IOException {
         this.socket = socket; // устанавливает соединение между программами
         this.chat = chat;

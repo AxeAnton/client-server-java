@@ -1,11 +1,9 @@
 package ru.ifmo.clientapp;
 
-import ru.ifmo.lib.Connection;
 import ru.ifmo.lib.Message;
 
 import java.io.*;
 import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class Client {
@@ -13,7 +11,6 @@ public class Client {
     private int port;
     private String ip;
     private Scanner scanner;
-    private Connection connection;
 
     public Client(String ip, int port) {
         this.port = port;
