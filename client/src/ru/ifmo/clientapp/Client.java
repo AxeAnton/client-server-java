@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Client {
-
+// тест 6
     private int port;
     private String ip;
     private Scanner scanner;
